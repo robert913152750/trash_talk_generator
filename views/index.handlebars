@@ -1,0 +1,31 @@
+<div class="container p-5">
+  <form action="/" method="post">
+    <div class="card-deck">
+      <div class="card">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg"
+          class="card-img-top" style="height: 15rem" alt="工程師">
+        <div class="card-body bg-light text-center text-secondary">
+          <input type="radio" name="target" value="engineer">工程師</br>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg"
+          class="card-img-top" style="height: 15rem" alt="設計師">
+        <div class="card-body bg-light text-center text-secondary">
+          <input type="radio" name="target" value="designer">設計師</br>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg"
+          class="card-img-top" style="height: 15rem" alt="創業家">
+        <div class="card-body bg-light text-center text-secondary">
+          <input type="radio" name="target" value="entrepreneur">創業家</br>
+        </div>
+      </div>
+    </div>
+    <div class="button m-5">
+      <button type="summit" class="btn btn-secondary btn-lg float-left">幹話生成!!</button>
+      <textarea class="float-left ml-5" name="" id="" cols="100" rows="3">{{#if answer}}{{answer}}{{/if}}</textarea>
+    </div>
+  </form>
+</div>
